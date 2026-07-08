@@ -4,13 +4,25 @@
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026-41BDF5?logo=homeassistant)
 ![Matter](https://img.shields.io/badge/Matter-Supported-6C2DC7)
 ![License](https://img.shields.io/badge/License-MIT-green)
+<h1 align="left">
+--> QUICK START <--
+1. Flash the IMG to a microSD card
+2. Boot the Raspberry Pi
+3. Open Home Assistant
+4. Configure your Devices
+5. Pair MatterBridge
+6. Pair DIYHue (optional)
+7. Pair your Matter controller
+8. Enjoy.
+</h1>
+  
 <h1 align="center">
 DIY HomeLab
 </h1>
 
 **Tuya Cloud --> Home Assistant --> MatterBridge --> Smartthings/GoogleHome/Alexa**
 **Tuya Cloud --> Home Assistant --> DiyHue --> Hue App/Hue Sync**
-**Cameras are not integrated yet.**
+**Cameras are not integrated yet**
 
 <h1 align="left">
   
@@ -88,20 +100,15 @@ Philips Hue Sync**
 - MatterBridge
 - DIYHue
 - Cast-Web-API
-
 ---
-
 # Current Limitations
-
 - Tuya Local not configured
 - Cameras are not integrated
 - DIYHue is only required for Music Sync
 - Raspberry Pi 3 works well but Raspberry Pi 4 is recommended
-
 ---
 
 # Future Plans
-
 - MQTT
 - Zigbee2MQTT
 - Music Assistant
@@ -110,56 +117,40 @@ Philips Hue Sync**
 - ESPHome Devices
 - Docker Compose Improvements
 - Full documentation
-
 ---
 # ❤️ Acknowledgements
-
-This project would not be possible without the amazing work of the following open source communities and developers.
+This project would not be possible without the amazing work of the following open source communities and developers
 
 ## Home Assistant
-Universal home automation platform.
+Universal home automation platform
 https://www.home-assistant.io/
-
 ## Matterbridge
-Matter bridge used to expose Home Assistant devices.
+Matter bridge used to expose Home Assistant devices
 https://github.com/Luligu/matterbridge
-
 ## DIYHue
-Philips Hue emulator used for SmartThings Music Sync.
+Philips Hue emulator used for SmartThings Music Sync
 https://github.com/diyhue/diyHue
-
 ## Cast-Web-API
 Google Cast REST API.
 https://github.com/vervallsweg/cast-web-api
-
 ## T. Austin
 Developer of the Samsung SmartThings Edge Cast-Web-API Driver.
-
-Driver Repository:
-https://github.com/toddaustin07/googlecast
-Without this driver, Google Home speakers and Chromecast devices could not be integrated into SmartThings using Cast-Web-API.
-
+Driver Repository: https://github.com/toddaustin07/googlecast
+Without this driver, Google Home and Chromecast devices could not be integrated into SmartThings using Cast-Web-API
 ## WLED
 ESP32 LED Controller.
 https://github.com/Aircoookie/WLED
-
 ## Tuya
 Cloud platform used for the current device integration.
-
 ## Docker
 Container platform that makes the entire HomeLab possible.
 https://www.docker.com/
-
 ## Raspberry Pi Foundation
 Hardware platform used in this project.
 https://www.raspberrypi.com/
 
 # License
-
 MIT
 
 ---
-
-Made with ❤️ on a Raspberry Pi 3.
-
 </h1>
