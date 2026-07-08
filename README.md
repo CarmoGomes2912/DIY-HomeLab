@@ -21,22 +21,20 @@ DIY HomeLab
 | Samsung SmartThings Hub (Samsung TV)|
 | Google Home Mini |
 | Google Chromecast Built-In TV|
-|------|
+
 
 ## SOFTWARE
-|------|
 | Raspbery Pi OS Lite |
 | Docker |
 | Home Assistant |
 | MatterBridge |
 | DiyHue |
 | CastWeb API |
-|------|
+
 
 # Main Goals
 This project creates a universal smart home server capable of connecting devices from multiple manufacturers into a single ecosystem.
-
-Supported ecosystems:
+* Supported ecosystems:
 - Tuya Cloud
 - Matter
 - SmartThings
@@ -48,7 +46,6 @@ Supported ecosystems:
 
 ---
 # Current Devices
-
 ## Tuya
 - 4x Avant Neo Smart Lamps
   - Living Room
@@ -66,60 +63,22 @@ Supported ecosystems:
 
 - Positivo Casa Inteligente Camera
 
-> Cameras are not integrated yet.
->
-> Everything else works.
-
----
+**Cameras are not integrated yet.**
 
 ## ESP Devices
-
 - ESP32
 - WLED
 - RGB5050 LED Strip
 
----
-
-## Samsung
-
+## Samsung (Having at least one SmartThings Hub is highly recommended.)
 - Samsung CU7700
 - Samsung BU8000
 
-Having at least one SmartThings Hub is highly recommended.
-
----
-
-# Architecture
-
-```
-             Tuya Cloud
-                 │
-                 │
-          Home Assistant
-        (Universal Server)
-                 │
-        ┌────────┴────────┐
-        │                 │
- MatterBridge         DIYHue
-        │                 │
-        │                 │
- SmartThings        Philips Hue App
-        │                 │
-        └────────┬────────┘
-                 │
-       Google Home
-                 │
-             Amazon Alexa
-```
-
----
 
 # Why Home Assistant?
 
 Home Assistant is the heart of the project.
-
 It receives devices from:
-
 - Tuya
 - ESP32
 - WLED
@@ -131,8 +90,6 @@ Then exports everything to:
 - Philips Hue (Emulated)
 
 This means every incompatible ecosystem becomes compatible.
-
----
 
 # MatterBridge
 
