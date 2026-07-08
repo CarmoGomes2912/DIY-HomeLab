@@ -12,23 +12,9 @@ DIY HomeLab
 Universal Smart Home based on Raspberry Pi, Home Assistant, MatterBridge, DIYHue and Docker.
 </p>
 
-**Tuya Cloud
-      │
-      ▼
-Home Assistant
-      │
- ┌────┴────┐
- │         │
-Matter   DIYHue
- │         │
- ▼         ▼
-SmartThings Hue
- │
- ▼
-Google Home
- │
- ▼
-Alexa**
+**Tuya Cloud --> Home Assistant --> MatterBridge --> Smartthings/GoogleHome/Alexa**
+
+**Tuya Cloud --> Home Assistant --> DiyHue --> Hue App/Hue Sync**
 
 <h1 align="left">
   ## Hardware
