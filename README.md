@@ -1,1 +1,6 @@
 ![DIY HomeLab Banner](docs/images/HomeLab.png)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-3B-C51A4A?logo=raspberrypi)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026-41BDF5?logo=homeassistant)
+![Matter](https://img.shields.io/badge/Matter-Supported-6C2DC7)
+![License](https://img.shields.io/badge/License-MIT-green)
