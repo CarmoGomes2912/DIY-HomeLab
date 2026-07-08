@@ -6,8 +6,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 <h1 align="left">
 --> QUICK START <--
-1. Flash the IMG to a microSD card
-2. Boot the Raspberry Pi
+  *Flash the IMG to a microSD card
+  Boot the Raspberry Pi
 3. Open Home Assistant
 4. Configure your Devices
 5. Pair MatterBridge
