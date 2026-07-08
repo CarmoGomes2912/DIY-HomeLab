@@ -4,3 +4,10 @@
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026-41BDF5?logo=homeassistant)
 ![Matter](https://img.shields.io/badge/Matter-Supported-6C2DC7)
 ![License](https://img.shields.io/badge/License-MIT-green)
+<h1 align="center">
+DIY HomeLab
+</h1>
+
+<p align="center">
+Universal Smart Home based on Raspberry Pi, Home Assistant, MatterBridge, DIYHue and Docker.
+</p>
