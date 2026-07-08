@@ -37,10 +37,11 @@ DIY HomeLab
 | DiyHue |
 | CastWeb API |
 
+---
 
 # Main Goals
 This project creates a universal smart home server capable of connecting devices from multiple manufacturers into a single ecosystem.
-* Supported ecosystems:
+**Supported ecosystems:**
 - Tuya Cloud
 - Matter
 - SmartThings
@@ -49,8 +50,9 @@ This project creates a universal smart home server capable of connecting devices
 - Philips Hue (Emulated)
 - ESPHome / ESP32
 - WLED
-
+  
 ---
+
 # Current Devices
 ## Tuya
 - 4x Avant Neo Smart Lamps
@@ -69,18 +71,22 @@ This project creates a universal smart home server capable of connecting devices
 
 - Positivo Casa Inteligente Camera
 
+---
+
 ## ESP Devices
 - ESP32
 - WLED
 - RGB5050 LED Strip
 
+---
+
 ## Samsung (Having at least one SmartThings Hub is highly recommended.)
 - Samsung CU7700
 - Samsung BU8000
 
+---
 
 # Why Home Assistant?
-
 Home Assistant is the heart of the project.
 It receives devices from:
 - Tuya
@@ -89,11 +95,10 @@ It receives devices from:
 - Future integrations
 
 Then exports everything to:
-
 - Matter
 - Philips Hue (Emulated)
 
-This means every incompatible ecosystem becomes compatible.
+---
 
 # MatterBridge
 
