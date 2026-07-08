@@ -83,28 +83,14 @@ This project creates a universal smart home server capable of connecting devices
 ## Samsung (Having at least one SmartThings Hub is highly recommended.)
 - Samsung CU7700
 - Samsung BU8000
-
 ---
-
 # Why Home Assistant?
-Home Assistant is the heart of the project.
-It receives devices from:
-- Tuya
-- ESP32
-- WLED
-- Future integrations
+**Home Assistant is the heart of the project**
+It receives devices from: Tuya, ESP32, WLED, Future integrations, then exports everything to: Matter, Philips Hue (Emulated)
 
-Then exports everything to:
-- Matter
-- Philips Hue (Emulated)
-
----
-
-# MatterBridge
-
+# Why MatterBridge?
 MatterBridge imports every Home Assistant entity and publishes them as Matter devices.
-
-This allows pairing with:
+This allows pairing with
 
 - Google Home
 - Alexa
