@@ -5,7 +5,7 @@
 ![Matter](https://img.shields.io/badge/Matter-Supported-6C2DC7)
 ![License](https://img.shields.io/badge/License-MIT-green)
 <h1 align="left">
---> QUICK START: Flash the IMG to a microSD --> Boot the Raspberry Pi --> Open Home Assistant --> Configure your Devices --> Pair MatterBridge --> Pair DIYHue (optional) --> Pair your Matter controller
+QUICK START: Flash the IMG to a microSD --> Boot the Raspberry Pi --> Open Home Assistant --> Configure your Devices --> Pair MatterBridge --> Pair DIYHue (optional) --> Pair your Matter controller
  
 </h1>
   
