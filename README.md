@@ -8,30 +8,31 @@
 DIY HomeLab
 </h1>
 
-<p align="center">
-Universal Smart Home based on Raspberry Pi, Home Assistant, MatterBridge, DIYHue and Docker.
-</p>
-
 **Tuya Cloud --> Home Assistant --> MatterBridge --> Smartthings/GoogleHome/Alexa**
 
 **Tuya Cloud --> Home Assistant --> DiyHue --> Hue App/Hue Sync**
 
 <h1 align="left">
-  ## Hardware
-- Raspberry Pi 3 Model B
-- 1 GB RAM
-- 16 GB microSD card
-- Official Samsung 15W USB Power Adapter
-  - Recommended: Samsung 25W Adapter
-- Custom Mac Pro style case
+  
+## HARDWARE
+|------|
+| Raspberry Pi 3B |
+| ESP32 + RGB Led Strip |
+| Tuya Devices|
+| Samsung SmartThings Hub (Samsung TV)|
+| Google Home Mini |
+| Google Chromecast Built-In TV |
+|------|
 
-## Cost
-| Item | Price |
-|------|---------|
-| Raspberry Pi 3B | R$300 |
-| Mac Pro Case | R$42  |
-
----
+## SOFTWARE
+|------|
+| Raspbery Pi OS Lite |
+| Docker |
+| Home Assistant |
+| MatterBridge |
+| DiyHue |
+| CastWeb API |
+|------|
 
 # Main Goals
 This project creates a universal smart home server capable of connecting devices from multiple manufacturers into a single ecosystem.
