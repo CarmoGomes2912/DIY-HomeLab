@@ -17,11 +17,16 @@ DIY HomeLab
 ## HARDWARE
 |------|
 | Raspberry Pi 3B |
+|------|
 | ESP32 + RGB Led Strip |
+|------|
 | Tuya Devices|
+|------|
 | Samsung SmartThings Hub (Samsung TV)|
+|------|
 | Google Home Mini |
-| Google Chromecast Built-In TV |
+|------|
+| Google Chromecast Built-In TV|
 |------|
 
 ## SOFTWARE
