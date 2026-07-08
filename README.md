@@ -15,30 +15,22 @@ DIY HomeLab
 <h1 align="left">
   
 ## HARDWARE
----
-| Raspberry Pi 3B |
----
-| ESP32 + RGB Led Strip |
----
-| Tuya Devices|
----
-| Samsung SmartThings Hub (Samsung TV)|
----
-| Google Home Mini |
----
-| Google Chromecast Built-In TV|
----
+- Raspberry Pi 3B
+- ESP32 + RGB Led Strip
+- Tuya Devices
+- Samsung SmartThings Hub (Samsung TV)
+- Google Home Mini
+- Google Chromecast Built-In TV
 
 ## SOFTWARE
-| Raspbery Pi OS Lite |
-| Docker |
-| Home Assistant |
-| MatterBridge |
-| DiyHue |
-| CastWeb API |
+- Raspbery Pi OS Lite
+- Docker
+- Home Assistant
+- MatterBridge
+- DiyHue
+- CastWeb API
 
 ---
-
 # Main Goals
 This project creates a universal smart home server capable of connecting devices from multiple manufacturers into a single ecosystem.
 **Supported ecosystems:**
@@ -50,37 +42,21 @@ This project creates a universal smart home server capable of connecting devices
 - Philips Hue (Emulated)
 - ESPHome / ESP32
 - WLED
-  
 ---
-
 # Current Devices
 ## Tuya
 - 4x Avant Neo Smart Lamps
-  - Living Room
-  - Bedroom
-
 - NovaDigital Smart Pulse Switch
-  - Main Gate
-
 - 2x Generic Tuya Smart Switches
-  - Garage
-  - Living Room LED Strip
-
 - Generic Tuya RGB Controller
-  - Bedroom Desk
-
 - Positivo Casa Inteligente Camera
-
 ---
-
 ## ESP Devices
 - ESP32
 - WLED
 - RGB5050 LED Strip
-
 ---
-
-## Samsung (Having at least one SmartThings Hub is highly recommended.)
+## Samsung (Having at least one SmartThings Hub is highly recommended)
 - Samsung CU7700
 - Samsung BU8000
 ---
@@ -89,35 +65,13 @@ This project creates a universal smart home server capable of connecting devices
 It receives devices from: Tuya, ESP32, WLED, Future integrations, then exports everything to: Matter, Philips Hue (Emulated)
 
 # Why MatterBridge?
-MatterBridge imports every Home Assistant entity and publishes them as Matter devices.
-This allows pairing with
+MatterBridge imports every Home Assistant entity and publishes them as Matter devices. This allows pairing with: Google Home, Alexa, SmartThings, (Mayble HomeKit and others controllers) without depending on the original manufacturer
 
-- Google Home
-- Alexa
-- SmartThings
+# Why DIYHue? (DiyHue is optional)
+It exists only because Samsung SmartThings, and Hue app has one feature that Matter still cannot replace: Hue Sync
+Samsung SmartThings can synchronize Philips Hue lights with music, since SmartThings only supports real Philips Hue Bridges... DiyHue emulates one (Without DIYHue, everything still works) *Also work on HueSync app for Windows, i don't know if work with PhilipsSync app for Samsung TV's
 
-without depending on the original manufacturer.
-
----
-
-# Why DIYHue?
-
-DIYHue is optional.
-
-It exists only because Samsung SmartThings, and Hue app has one feature that Matter still cannot replace:
-
-## Hue Sync
-
-Samsung SmartThings can synchronize Philips Hue lights with music.
-
-Since SmartThings only supports real Philips Hue Bridges for this feature...
-
-DIYHue emulates one.
-
-Result:
-
-```
-Tuya
+**Tuya
    ↓
 Home Assistant
    ↓
@@ -125,52 +79,11 @@ DIYHue
    ↓
 Samsung SmartThings
    ↓
-Philips Hue Sync
-```
-
-Without DIYHue:
-
-Everything still works.
-
-You only lose Philips Hue music synchronization. 
-*Also work on HueSync app for Windows, i don't know if work with PhilipsSync app for Samsung TV's
+Philips Hue Sync**
 
 ---
-
-# Recommended Flow
-
-```
-Tuya Cloud
-      ↓
-Home Assistant
-      ↓
-MatterBridge
-      ↓
-SmartThings
-      ↓
-Google Home
-      ↓
-Alexa
-```
-
-Alternative:
-
-```
-Tuya
-    ↓
-Home Assistant
-    ↓
-DIYHue
-    ↓
-SmartThings
-```
-
----
-
 # Docker Containers
-
-Current services
-
+**Current services:**
 - Home Assistant
 - MatterBridge
 - DIYHue
