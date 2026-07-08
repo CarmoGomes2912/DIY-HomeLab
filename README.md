@@ -15,7 +15,6 @@ DIY HomeLab
 <h1 align="left">
   
 ## HARDWARE
-|------|
 | Raspberry Pi 3B |
 | ESP32 + RGB Led Strip |
 | Tuya Devices|
