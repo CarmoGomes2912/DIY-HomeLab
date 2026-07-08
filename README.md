@@ -9,17 +9,22 @@ DIY HomeLab
 </h1>
 
 **Tuya Cloud --> Home Assistant --> MatterBridge --> Smartthings/GoogleHome/Alexa**
-
 **Tuya Cloud --> Home Assistant --> DiyHue --> Hue App/Hue Sync**
+**Cameras are not integrated yet.**
 
 <h1 align="left">
   
 ## HARDWARE
 | Raspberry Pi 3B |
+
 | ESP32 + RGB Led Strip |
+
 | Tuya Devices|
+
 | Samsung SmartThings Hub (Samsung TV)|
+
 | Google Home Mini |
+
 | Google Chromecast Built-In TV|
 
 
@@ -62,8 +67,6 @@ This project creates a universal smart home server capable of connecting devices
   - Bedroom Desk
 
 - Positivo Casa Inteligente Camera
-
-**Cameras are not integrated yet.**
 
 ## ESP Devices
 - ESP32
